@@ -8,8 +8,6 @@ Let's make a contribution to this repository.
 
 Let me show you how easy it is:
 
-First and Foremost register yourself on https://hacktoberfest.digitalocean.com and then click Start Hacking. Next Follow the Steps below to make Pull requests.
-
 ## 1. Fork this repository
 
 Fork this repository by clicking on the fork button on the top of this page.
@@ -34,13 +32,23 @@ Since you want to change the files inside, first let's move to the folder correc
 
 ---
 
-## 4. Add files to the folder
+## 4. Make a new branch
 
-Add files to the folder and do `git status` it shows the file which you added.
+Since now you're about to make your personal changes to the project, it's always a better idea to make a new branch. Run the following command:
+
+`git checkout -b <branch_name>`  
+For example:  
+`git checkout -b new_branch`
 
 ---
 
-## 5. Commit all your changes
+## 5. Make the required changes
+
+Check out the [CONTRIBUTE.md](/contribute.md) file to see what all contributions can you make.
+
+---
+
+## 6. Commit all your changes
 
 It's finally that time when you commit your changes and leave a beautiful commit message behind. You can run the following commands:
 
@@ -58,7 +66,7 @@ For example:
 
 ---
 
-## 6. Hit us a pull request
+## 7. Hit us a pull request
 
 If you go to your repository on GitHub, you'll see a Compare & pull request button. Click on that button.
 Now submit the pull request. Leave a custom message if you want.
