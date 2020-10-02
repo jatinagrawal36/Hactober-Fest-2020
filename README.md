@@ -34,7 +34,11 @@ Since you want to change the files inside, first let's move to the folder correc
 
 ---
 
-## 4. Add files to the folder and push it into your repo
+## 4. Add files to the folder
+
+Add files to the folder and do `git status` it shows the file which you added.
+
+---
 
 ## 5. Commit all your changes
 
